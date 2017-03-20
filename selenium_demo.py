@@ -37,10 +37,10 @@ br.find_element_by_id('ipt-account-login').send_keys("18510086742")
 br.find_element_by_id('ipt-pwd-login').send_keys("111111")
 br.find_element_by_xpath('//*[@id="form-login"]/div[4]/a[1]').click()
 # userImg = br.find_element_by_xpath('//*[@id="header-guide"]/li[1]/a[1]/img')
-userImg = br.find_element_by_id('user-message')
-print userImg
-time.sleep(2)
+# userImg = br.find_element_by_xpath('//*[@id="header-guide"]/li[1]')
+# print userImg
 # ActionChains(br).move_to_element(userImg).perform()
+WebDriverWait(br, 10, 0.5).until(lambda x: x.find_element_by_class_name('user-avatar').is_displayed())
 js = "$('.user-avatar img').mouseover()"
 br.execute_script(js)
 print br.find_element_by_class_name("user-name").text
