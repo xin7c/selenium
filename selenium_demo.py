@@ -26,10 +26,13 @@ for handle in all_handles:
         print handle
         br.switch_to_window(handle)
 driverWait = WebDriverWait(br, 10, 0.5).until(lambda the_driver: the_driver.find_element_by_xpath('//*[@id="form-login"]/div[4]/a[1]').is_displayed())
+print br.title
 if driverWait:
     print "Successed"
 else:
     print "Failed"
+br.switch_to_window(all_handles[0])
+print br.title
 
 br.quit()
 
