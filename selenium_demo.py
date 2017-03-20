@@ -14,7 +14,7 @@ br = webdriver.Firefox()
 br.implicitly_wait(30)
 br.get('http://www.acfun.cn')
 now_handle = br.current_window_handle
-print now_handle
+print "主站窗口句柄->", now_handle
 br.find_element_by_xpath('//*[@id="header-guide"]/li[1]/a[2]').click()
 time.sleep(3)
 #获取所有窗口句柄
