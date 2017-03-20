@@ -44,5 +44,5 @@ WebDriverWait(br, 10, 0.5).until(lambda x: x.find_element_by_class_name('user-av
 js = "$('.user-avatar img').mouseover()"
 br.execute_script(js)
 print br.find_element_by_class_name("user-name").text
-# br.quit()
+br.quit()
 
