@@ -8,11 +8,11 @@ sys.setdefaultencoding('utf-8')
 from selenium import webdriver
 import time
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
 
 br = webdriver.Firefox()
 br.implicitly_wait(30)
 br.get('http://www.acfun.cn')
-print br.title
 now_handle = br.current_window_handle
 print now_handle
 br.find_element_by_xpath('//*[@id="header-guide"]/li[1]/a[2]').click()
@@ -23,16 +23,26 @@ print all_handles
 for handle in all_handles:
     if handle != now_handle:
         #输出待选择的窗口句柄
-        print handle
+        print "即将切换到->", handle
         br.switch_to_window(handle)
-driverWait = WebDriverWait(br, 10, 0.5).until(lambda the_driver: the_driver.find_element_by_xpath('//*[@id="form-login"]/div[4]/a[1]').is_displayed())
-print br.title
+driverWait = WebDriverWait(br, 10, 0.5).until(lambda x: x.find_element_by_id('ipt-account-login').is_displayed())
+print "切换后的窗口标题->", br.title
 if driverWait:
     print "Successed"
 else:
     print "Failed"
-br.switch_to_window(all_handles[0])
+# br.switch_to_window(all_handles[0])
 print br.title
-
-br.quit()
+br.find_element_by_id('ipt-account-login').send_keys("18510086742")
+br.find_element_by_id('ipt-pwd-login').send_keys("111111")
+br.find_element_by_xpath('//*[@id="form-login"]/div[4]/a[1]').click()
+# userImg = br.find_element_by_xpath('//*[@id="header-guide"]/li[1]/a[1]/img')
+userImg = br.find_element_by_id('user-message')
+print userImg
+time.sleep(2)
+# ActionChains(br).move_to_element(userImg).perform()
+js = "$('.user-avatar img').mouseover()"
+br.execute_script(js)
+print br.find_element_by_class_name("user-name").text
+# br.quit()
 

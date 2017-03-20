@@ -5,3 +5,151 @@
 1489984427946	Marionette	INFO	Listening on port 55340
 [Child 16266] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
 [Child 16266] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1489989416046	geckodriver	INFO	Listening on 127.0.0.1:56440
+1489989416330	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.WOpAydyTjDAj
+1489989416331	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489989416334	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56444
+1489989417310	Marionette	INFO	Listening on port 56444
+[Child 21439] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 21439] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1489989640225	geckodriver	INFO	Listening on 127.0.0.1:56539
+1489989641331	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.5Y5zO7nunjES
+1489989641333	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489989641335	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56545
+1489989641992	Marionette	INFO	Listening on port 56545
+[Child 21605] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 21605] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1489992614232	geckodriver	INFO	Listening on 127.0.0.1:57125
+1489992615421	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.UJyoAoI5UTw1
+1489992615422	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489992615425	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57131
+1489992616168	Marionette	INFO	Listening on port 57131
+[Child 23560] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 23560] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1489992646805	geckodriver	INFO	Listening on 127.0.0.1:57207
+1489992647910	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.DXetKdN6DuQ6
+1489992647911	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489992647913	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57214
+1489992648564	Marionette	INFO	Listening on port 57214
+2017-03-20 14:51:58.011 firefox-bin[23588:1018042] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 14:51:58.020 firefox-bin[23588:1018042] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x111dc6730) AXWebArea]
+1489992718788	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1489992718795	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1489992721432	geckodriver	INFO	Listening on 127.0.0.1:57308
+1489992722767	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.HHTuaMkotrPx
+1489992722770	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489992722773	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57314
+1489992723933	Marionette	INFO	Listening on port 57314
+2017-03-20 14:52:37.608 firefox-bin[23647:1026505] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 14:52:37.613 firefox-bin[23647:1026505] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x107db1a90) AXWebArea]
+2017-03-20 14:52:42.796 firefox-bin[23647:1026505] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 14:52:42.796 firefox-bin[23647:1026505] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x107db1a90) AXWebArea]
+1489993175467	geckodriver	INFO	Listening on 127.0.0.1:57849
+1489993176628	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.Q7yiWTNkB4W6
+1489993176629	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489993176632	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57855
+1489993177416	Marionette	INFO	Listening on port 57855
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23960] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 23960] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1489993248553	geckodriver	INFO	Listening on 127.0.0.1:57947
+1489993249699	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.zC9CVYUkGrYP
+1489993249700	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489993249702	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57953
+1489993250533	Marionette	INFO	Listening on port 57953
+[Child 24014] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 24014] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1489993313400	geckodriver	INFO	Listening on 127.0.0.1:58040
+1489993314545	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.reu2jPw5o7Yu
+1489993314546	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489993314550	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58047
+1489993315357	Marionette	INFO	Listening on port 58047
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 24068] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 24068] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1489993358478	geckodriver	INFO	Listening on 127.0.0.1:58133
+1489993359592	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.bhhWUt49JQFE
+1489993359593	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489993359595	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58139
+1489993360242	Marionette	INFO	Listening on port 58139
+1489993476475	geckodriver	INFO	Listening on 127.0.0.1:58230
+1489993477656	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.QL7O4kLfUwBD
+1489993477657	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489993477661	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58236
+1489993478428	Marionette	INFO	Listening on port 58236
+1489993518530	geckodriver	INFO	Listening on 127.0.0.1:58317
+1489993519867	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.awIgbKSEbvux
+1489993519870	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489993519875	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58323
+1489993521665	Marionette	INFO	Listening on port 58323
+2017-03-20 15:06:06.865 firefox-bin[24221:1107269] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:06:06.871 firefox-bin[24221:1107269] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x10fc30970) AXWebArea]
+2017-03-20 15:06:26.348 firefox-bin[24221:1107269] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:06:26.349 firefox-bin[24221:1107269] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x10fc30970) AXWebArea]
+1489993588127	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1489993588133	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1489993825711	geckodriver	INFO	Listening on 127.0.0.1:58719
+1489993826855	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.bfnRoPto7j1E
+1489993826856	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489993826858	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58725
+1489993827616	Marionette	INFO	Listening on port 58725
+2017-03-20 15:10:55.766 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:10:55.772 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x1167923a0) AXWebArea]
+2017-03-20 15:10:59.713 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:10:59.713 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x1167923a0) AXWebArea]
+2017-03-20 15:11:00.045 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:00.045 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x116973130) AXWebArea]
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+2017-03-20 15:11:02.795 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:02.795 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x116973130) AXWebArea]
+2017-03-20 15:11:04.937 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:04.937 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x116973130) AXWebArea]
+2017-03-20 15:11:18.962 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:18.962 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x116973130) AXWebArea]
+2017-03-20 15:11:19.144 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:19.144 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x122c2aaf0) AXWebArea]
+2017-03-20 15:11:19.186 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:19.186 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x1209e6a60) AXWebArea]
+2017-03-20 15:11:19.664 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:19.664 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x123f2ad90) AXWebArea]
+2017-03-20 15:11:28.536 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:28.536 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x116973130) AXWebArea]
+2017-03-20 15:11:29.279 firefox-bin[24422:1143299] *** Assertion failure in -[mozAccessible parent], /builds/slave/m-rel-m64-00000000000000000000/build/src/accessible/mac/mozAccessible.mm:581
+2017-03-20 15:11:29.279 firefox-bin[24422:1143299] Mozilla has caught an Obj-C exception [NSInternalInconsistencyException: !!! we can't find a parent for (0x1173a9b80) AXWebArea]
+1489994894835	geckodriver	INFO	Listening on 127.0.0.1:59232
+1489994895990	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.gkWJu6zfnOTR
+1489994895991	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489994895995	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59238
+1489994896865	Marionette	INFO	Listening on port 59238
+1489994938103	geckodriver	INFO	Listening on 127.0.0.1:59328
+1489994939648	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.uCZeFboRrntN
+1489994939650	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489994939654	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59334
+1489994940837	Marionette	INFO	Listening on port 59334
+[Child 25132] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+[Child 25132] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1489994979302	geckodriver	INFO	Listening on 127.0.0.1:59396
+1489994980535	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.lukY4QYLD5z7
+1489994980538	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489994980541	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59402
+1489994982131	Marionette	INFO	Listening on port 59402
+1489995836917	geckodriver	INFO	Listening on 127.0.0.1:59607
+1489995838094	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.Gm8AAzXMdABw
+1489995838097	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489995838101	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59613
+1489995838914	Marionette	INFO	Listening on port 59613
+1489995943806	geckodriver	INFO	Listening on 127.0.0.1:59710
+1489995944957	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.5KfvExnlkVQf
+1489995944959	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489995944962	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59717
+1489995945826	Marionette	INFO	Listening on port 59717
+1489995978692	geckodriver	INFO	Listening on 127.0.0.1:59803
+1489995979193	mozprofile::profile	INFO	Using profile path /var/folders/lb/k61m7gsn25d872wbypq66whm0000gn/T/rust_mozprofile.iyFqEOAFGsDI
+1489995979196	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args []
+1489995979201	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59807
+1489995981506	Marionette	INFO	Listening on port 59807
