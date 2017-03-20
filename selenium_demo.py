@@ -25,8 +25,11 @@ for handle in all_handles:
         #输出待选择的窗口句柄
         print handle
         br.switch_to_window(handle)
-print WebDriverWait(br, 10, 0.5).until(lambda the_driver: the_driver.find_element_by_xpath('//*[@id="form-login"]/div[4]/a[1]').is_displayed())
+driverWait = WebDriverWait(br, 10, 0.5).until(lambda the_driver: the_driver.find_element_by_xpath('//*[@id="form-login"]/div[4]/a[1]').is_displayed())
+if driverWait:
+    print "Successed"
+else:
+    print "Failed"
 
-
-# browser.quit()
+br.quit()
 
