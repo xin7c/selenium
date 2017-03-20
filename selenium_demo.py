@@ -41,8 +41,9 @@ br.find_element_by_xpath('//*[@id="form-login"]/div[4]/a[1]').click()
 # print userImg
 # ActionChains(br).move_to_element(userImg).perform()
 WebDriverWait(br, 10, 0.5).until(lambda x: x.find_element_by_class_name('user-avatar').is_displayed())
+# 准备执行JS
 js = "$('.user-avatar img').mouseover()"
 br.execute_script(js)
 print br.find_element_by_class_name("user-name").text
-# br.quit()
+br.quit()
 
